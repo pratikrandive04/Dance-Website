@@ -1,0 +1,45 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style 
+    style
+      include ../static/style.css
+
+block content 
+    section#introSection 
+        div Welcome To ABCD Dance Academy
+        div.small -Go With The Flow-
+    section#missionSection
+        h2 Our Mission
+        div.card
+          h3 Book Online
+          div.cardBox
+            div.cardImg
+              img(src="/static/img/dance1.png")
+            div.cardContent
+              p Best Dance academy in world, move on the floor.
+        div.card
+          h3 This Is Card 
+          div.cardBox
+            div.cardImg
+              img(src="/static/img/dance2.png")
+            div.cardContent
+              p Best Dance academy in world, move on the floor.
+        div.card
+          h3 This Is Card
+          div.cardBox
+            div.cardImg
+              img(src="/static/img/dance3.png")
+            div.cardContent
+              p Best Dance academy in world, move on the floor.
+    section#sponsorSection
+        h2 Our Sponsors
+        div.sponsors 
+          img(src="/static/img/pepsi.png", alt="Sponaor Img", class="spImage")
+          img(src="/static/img/redbull.png", alt="Sponaor Img", class="spImage")
+          img(src="/static/img/triple.png", alt="Sponaor Img", class="spImage")
+          img(src="/static/img/sony.png", alt="Sponaor Img", class="spImage")
+        
+    

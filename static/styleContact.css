@@ -1,0 +1,40 @@
+h1,h3{
+    text-align: center;
+    margin: 12px,0;
+}
+
+.container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 6px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.myInput{
+    width: 30%;
+    padding: 8px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid tomato;
+    border-radius: 10px;
+
+}
+.btn{
+    padding: 6px 20px;
+    font-size: 18px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: aliceblue;
+    background-color: tomato;
+    width: 452px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
