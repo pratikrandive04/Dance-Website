@@ -10,7 +10,7 @@ mongoose.set('strictQuery', true);
 main().catch(err => console.log(err));
 // connecting mongoose 
 async function main() {
-    await mongoose.connect('mongodb://127.0.0.1:27017/ContactDance');
+    await mongoose.connect('mongodb+srv://pratikdancewebsite:pratikdancewebsite@cluster0.56aoedw.mongodb.net/?retryWrites=true&w=majority');
     console.log("We Are Connected To MongoDB.... ");  
    
   }
